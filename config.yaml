@@ -24,13 +24,13 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: web.bysshe.co.uk
-    name: web.bysshe.co.uk
+  - id: Bysshe VPN
+    name: vpn.bysshe.co.uk
     description: 'Built for anything connected to the Internet.'
-    url: 'https://web.bysshe.co.uk'
+    url: 'https://vpn.bysshe.co.uk'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: cloudflare-com
     name: The Cloudflare Blog
