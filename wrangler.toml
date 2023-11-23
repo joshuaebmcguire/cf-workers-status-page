@@ -10,7 +10,7 @@ crons = ["*/2 * * * *"]
 
 [site]
 bucket = "out"
-entry-point = "./"
+entry-point = 'https://4d0c2f790a9c822bf8627c782d9eb866.r2.cloudflarestorage.com/statuspage/'
 
 # uncomment and adjust following if you are not using GitHub Actions
 #[env.production]
