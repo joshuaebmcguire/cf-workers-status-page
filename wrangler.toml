@@ -10,7 +10,7 @@ binding = "HYPERDRIVE"
 id = "statuspage"
 
 [triggers]
-crons = ["*/2 * * * *"]
+crons = ["*/5 * * * *"]
 
 [site]
 bucket = "out"
