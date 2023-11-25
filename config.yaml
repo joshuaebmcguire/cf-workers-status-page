@@ -32,6 +32,50 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+ id: workers-cloudflare-com # unique identifier
+    name: workers.cloudflare.com
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://workers.cloudflare.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+    - id: workers-cloudflare-com # unique identifier
+    name: workers.cloudflare.com
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://workers.cloudflare.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: Bysshe VPN
+    name: vpn.bysshe.co.uk
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://vpn.bysshe.co.uk'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+ id: workers-cloudflare-com # unique identifier
+    name: workers.cloudflare.com
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://workers.cloudflare.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+    - id: workers-cloudflare-com # unique identifier
+    name: workers.cloudflare.com
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://workers.cloudflare.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
   - id: cloudflare-com
     name: The Cloudflare Blog
     url: 'https://www.cloudflare.com/'
