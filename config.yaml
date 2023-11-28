@@ -2,7 +2,7 @@ settings:
   title: 'Status Page'
   url: 'https://status.bysshe.co.uk/*' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 30 # number of days you want to display in histogram
+  daysInHistogram: 60 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -32,25 +32,25 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
- id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+ - id: Uptime # unique identifier
+    name: status.bysshe.co.uk
+    description: 'This status page.' # default=empty
+    url: 'https://status.bysshe.co.uk' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-    - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
+  - id: Jules-Driving-School # unique identifier
+    name: Jules Driving School Website
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+    url: 'https://learnwithjules.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: Bysshe VPN
+- id: Placeholder1
     name: vpn.bysshe.co.uk
     description: 'Built for anything connected to the Internet.'
     url: 'https://vpn.bysshe.co.uk'
@@ -58,16 +58,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
- id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
-
-    - id: workers-cloudflare-com # unique identifier
+ -  id: Placeholder2 # unique identifier
     name: workers.cloudflare.com
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://workers.cloudflare.com/' # URL to fetch
