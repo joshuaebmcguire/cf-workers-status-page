@@ -15,10 +15,10 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
+  - id: Bysshe IT Website # unique identifier
+    name: web.bysshe.co.uk
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+    url: 'https://web.bysshe.co.uk/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -32,10 +32,10 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
- - id: Uptime # unique identifier
-    name: status.bysshe.co.uk
+ - id: Plex # unique identifier
+    name: plex.bysshe.co.uk
     description: 'This status page.' # default=empty
-    url: 'https://status.bysshe.co.uk' # URL to fetch
+    url: 'https://plex.bysshe.co.uk' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -50,18 +50,18 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-- id: Placeholder1
-    name: vpn.bysshe.co.uk
+- id: Fog
+    name: fog.bysshe.co.uk
     description: 'Built for anything connected to the Internet.'
-    url: 'https://vpn.bysshe.co.uk'
+    url: 'https://fog.bysshe.co.uk'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
- -  id: Placeholder2 # unique identifier
-    name: workers.cloudflare.com
+ -  id: Remote Apps # unique identifier
+    name: remote.bysshe.co.uk
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+    url: 'https://remote.bysshe.co.uk/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
