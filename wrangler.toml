@@ -1,3 +1,5 @@
+Run `npm uninstall -g @cloudflare/wrangler && npm install -g wrangler` to update to the latest version
+
 name = "statuspage"
 workers_dev = true
 account_id = "4d0c2f790a9c822bf8627c782d9eb866"
