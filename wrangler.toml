@@ -3,7 +3,7 @@ workers_dev = true
 account_id = "4d0c2f790a9c822bf8627c782d9eb866"
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
-compatibility_date = "2021-07-23"
+compatibility_date = "2050-09-14"
 
 #[[hyperdrive]]
 #binding = "HYPERDRIVE"
@@ -21,3 +21,5 @@ entry-point = 'https://4d0c2f790a9c822bf8627c782d9eb866.r2.cloudflarestorage.com
 #kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
 #zone_id="bysshe.co.uk"
 #route="status.bysshe.co.uk/"
+
+
