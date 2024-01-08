@@ -5,8 +5,8 @@ type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
 
-[[hyperdrive]]
-binding = "HYPERDRIVE"
+#[[hyperdrive]]
+#binding = "HYPERDRIVE"
 id = "statuspage"
 
 [triggers]
