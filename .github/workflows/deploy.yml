@@ -17,7 +17,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 12
-    - run: npm uninstall -g @cloudflare/wrangler && npm install -g wrangler
     - run: yarn install
     - run: yarn build
       env:
