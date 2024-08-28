@@ -9,8 +9,8 @@ on:
     - cron: '0 0 1 * *'
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  deploy
+    runs-on: "ubuntu-latest"
     timeout-minutes: 10
     steps:
     - uses: actions/checkout@v2
