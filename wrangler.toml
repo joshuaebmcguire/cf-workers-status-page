@@ -9,10 +9,10 @@ compatibility_date = "2050-09-14"
 
 [build]
 command = "npm uninstall -g @cloudflare/wrangler && npm install -g wrangler"
-command = "npm run build"
-#account_id = "4d0c2f790a9c822bf8627c782d9eb866"
-#type = "webpack"
-#webpack_config = "node_modules/flareact/webpack"
+command = "npm run rebuild"
+account_id = "4d0c2f790a9c822bf8627c782d9eb866"
+type = "webpack"
+webpack_config = "node_modules/flareact/webpack"
 
 #[[hyperdrive]]
 #binding = "HYPERDRIVE"
