@@ -30,9 +30,10 @@ monitors:
     url: 'https://vpn.bysshe.co.uk'
     method: GET
     expectStatus: 200
+    followRedirect: true
     linkable: true # allows the title to be a link, default=true
 
- - id: Plex # unique identifier
+  - id: Plex # unique identifier
     name: plex.bysshe.co.uk
     description: 'This status page.' # default=empty
     url: 'https://plex.bysshe.co.uk' # URL to fetch
@@ -50,7 +51,7 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-- id: Fog
+  - id: Fog
     name: fog.bysshe.co.uk
     description: 'Built for anything connected to the Internet.'
     url: 'https://fog.bysshe.co.uk'
@@ -58,7 +59,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
- -  id: Remote Apps # unique identifier
+  - id: Remote Apps # unique identifier
     name: remote.bysshe.co.uk
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://remote.bysshe.co.uk/' # URL to fetch
